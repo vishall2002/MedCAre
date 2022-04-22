@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> MedCare</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="2. MedCare.css">
+
+	<script>
+		$(document).ready
+			(function () {
+				$('[data-toggle="tooltip"]').tooltip();
+			});
+	</script>
+
+
+</head>
+
+<body>
+	<div>
+		<div id="abc">
+			<img src="https://www.medcarehospitalblr.com/images/logo.png" align="left" width="110px" height="40px"
+				class="img-rounded">
+
+
+
+			<ul class="nav nav-pills">
+				<li class="disabled"> <a href="1. MedCare.html" target="blank"> Home</a></li>
+				<li> <a href="3. About us.html" target="blank"> About us</a></li>
+				<li> <a href="#"> Facilities</a></li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown"> Health Checkup <span
+							class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li> <a href="#"> Basic Check</a></li>
+						<li> <a href="#"> Full Body Check</a></li>
+						<li> <a href="#"> Advanced Body Check</a></li>
+					</ul>
+				</li>
+				<li> <a href="#"> Insurance</a></li>
+				<li> <a href="4. Contact.html"> Contact Us</a></li>
+				<li> <a href="Blog.html"> Blog</a></li>
+				<li>
+					<a class="nav-link" href="#"> MESSAGES <span class="badge"> 3</span></a>
+				</li>
+
+
+
+				<button class="btn btn-primary" data-toggle="modal" data-target="#modal1"> Log In/Sign Up </button>
+				<div class="modal fade" id="modal1" role="dialog">
+					<div class="modal-dialog modal-lg">
+						<! modal-dialog sets the default size and width>
+							<div class="modal-content">
+								<! modal-content used for styling for model...like background>
+									<div class="modal-header">
+										<button class="close" data-dismiss="modal"> <a href="#" data-toggle="tooltip"
+												data-placement="bottom" title="Click here to close !!"> &times; </a>
+											<! data-dismess used to close the modal, &times is used to get X sign.>
+										</button>
+
+										<img src="http://worldaiiotcongress.org/wp-content/uploads/2020/12/registration-banner.png"
+											width="870px" class="img-rounded">
+									</div>
+
+									<div class="modal-body">
+										<p> Please enter your credentials carefully....</p>
+										<form>
+											<input type="text" name="doctor" placeholder="Enter your name">
+											<input type="text" name="pname" placeholder="Enter your mobile number">
+											<input type="text" name="pmail" placeholder="Enter your Email ID">
+											<input type="number" name="mobile" placeholder="Enter your mobile number">
+											<input type="submit" value="Click here register :)" class="btn btn-success">
+										</form>
+
+									</div>
+
+									<div class="modal-footer">
+										<button class="btn btn-primary" data-dismiss="modal" align="center"> Close
+										</button>
+									</div>
+							</div>
+					</div>
+				</div>
+
+
+			</ul>
+		</div>
+
+	</div>
+
+
+	<div class="container-fluid"><br><br><br>
+		<div class="carousel" id="mycarousel" data-ride="carousel">
+
+			<ol class="carousel-indicators">
+				<li data-target="#mycarousel" data-slide-to="0"> </li>
+				<li data-target="#mycarousel" data-slide-to="1"> </li>
+				<li data-target="#mycarousel" data-slide-to="2"> </li>
+				<li data-target="#mycarousel" data-slide-to="3"> </li>
+				<li data-target="#mycarousel" data-slide-to="4"> </li>
+			</ol>
+
+			<div class="carousel-inner">
+				<div class="item active">
+					<img src="https://www.medcarehospitalblr.com/images/index.jpg">
+				</div>
+				<div class="item">
+					<img src="https://www.medcarehospitalblr.com/images/index2.jpg">
+				</div>
+				<div class="item">
+					<img src="https://www.medcarehospitalblr.com/images/index7.jpg">
+				</div>
+				<div class="item">
+					<img src="https://www.medcarehospitalblr.com/images/index3.jpg">
+				</div>
+				<div class="item">
+					<img src="https://www.medcarehospitalblr.com/images/index4.jpg">
+				</div>
+			</div>
+
+			<a class="left carousel-control" href="#mycarousel" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left"> Previous</span>
+			</a>
+			<a class="right carousel-control" href="#mycarousel" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right"> Next</span>
+			</a>
+
+
+		</div>
+	</div>
+
+
+
+	<div class="container-fluid" id="spect">
+		<div class="container">
+
+			<h2 align="center">
+				<font color="orange"> Our</font>
+				<font color="black"> Specilaties</font>
+			</h2><br>
+			<div class="col-md-2">
+				<div class="thumbnail"><a href="#">
+						<img src="https://www.medcarehospitalblr.com/images/b24.png">
+						<div class="caption" align="center"> Neurology</div>
+					</a>
+				</div>
+			</div>
+			<div class="col-md-2">
+				<div class="thumbnail"><a href="#">
+						<img src="https://www.medcarehospitalblr.com/images/b2.png">
+						<div class="caption" align="center"> Cosmetic Surgery</div>
+					</a>
+				</div>
+			</div>
+			<div class="col-md-2">
+				<div class="thumbnail"><a href="#">
+						<img src="https://www.medcarehospitalblr.com/images/b3.png">
+						<div class="caption" align="center"> Burns Care</div>
+					</a>
+				</div>
+			</div>
+			<div class="col-md-2">
+				<div class="thumbnail"><a href="#">
+						<img src="https://www.medcarehospitalblr.com/images/b4.png">
+						<div class="caption" align="center"> Maxillofacial Surgery</div>
+					</a>
+				</div>
+			</div>
+			<div class="col-md-2">
+				<div class="thumbnail"><a href="#">
+						<img src="https://www.medcarehospitalblr.com/images/b5.png">
+						<div class="caption" align="center"> Vascular Surgery</div>
+					</a>
+				</div>
+			</div>
+			<div class="col-md-2">
+				<div class="thumbnail"><a href="#">
+						<img src="https://www.medcarehospitalblr.com/images/b6.png">
+						<div class="caption" align="center"> Orthopedics</div>
+					</a>
+				</div><br>
+			</div>
+			<button type="button" class="btn btn-info btn-block"> Click here to know more</button><br>
+		</div>
+	</div>
+
+	<br>
+	<div class="container-fluid">
+
+		<div>
+			<ul class="breadcrumb">
+				<li class="active"> <a href="#"> Home</a></li>
+				<li class="disabled"> <a href="#">Our Doctors </a></li>
+			</ul>
+		</div>
+
+		<div class="container">
+			<h2 align="center">
+				<font color="orange"> Our</font>
+				<font color="black"> Doctors</font>
+			</h2><br>
+			<div class="col-md-4">
+				<div class="thumbnail"><a href="#">
+						<img src="https://www.medcarehospitalblr.com/images/doctor.png">
+						<div class="caption" align="center"> Dr. Saira Sabarwal (MBBS, DGO) <br> Neurology</div>
+					</a>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="thumbnail"><a href="#">
+						<img src="https://www.medcarehospitalblr.com/images/doctor.png">
+						<div class="caption" align="center"> Dr. Mahesh Bhatt (MBBS, MD) <br> Cosmetic Surgery</div>
+					</a>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="thumbnail"><a href="#">
+						<img src="https://www.medcarehospitalblr.com/images/doctor.png">
+						<div class="caption" align="center"> Dr. Shashank Mathur (MBBS, DVDL) <br> Burns Care</div>
+					</a>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="thumbnail"><a href="#">
+						<img src="https://www.medcarehospitalblr.com/images/doctor.png">
+						<div class="caption" align="center"> Dr. Advik Murli (MBBS, MD) <br> Maxillofacial Surgery</div>
+					</a>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="thumbnail"><a href="#">
+						<img src="https://www.medcarehospitalblr.com/images/doctor.png">
+						<div class="caption" align="center"> Dr. Hamant Deshmukh (MBBS, DVDL) <br> Vascular Surgery
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="thumbnail"><a href="#">
+						<img src="https://www.medcarehospitalblr.com/images/doctor.png">
+						<div class="caption" align="center"> Dr. AS Sharma (MBBS, MS) <br> Orthopedics</div>
+					</a>
+				</div>
+			</div>
+		</div><br>
+	</div>
+
+	<div class="container-fluid" id="spect2">
+		<div class="container">
+			<h2>
+				<font color="orange"> Book an</font>
+				<font color="black"> Appointment</font>&nbsp;<span class="glyphicon glyphicon-pencil">
+			</h2><br>
+			<div>
+				<form>
+					<input type="text" name="doctor" placeholder="Enter doctor name">
+					<input type="text" name="pname" placeholder="Your name">
+					<input type="text" name="pmail" placeholder="Your Email ID">
+					<input type="number" name="mobile" placeholder="Mobile number">
+					<input type="submit" value="Click here to book your appointmet" class="btn btn-success">
+				</form>
+			</div>
+		</div><br>
+	</div><br><br>
+
+	<div align="center">
+		<ul class="pagination pagination-lg">
+			<li class="active"> <a href="#"> Previous</a></li>
+			<li> <a href="#"> 1</a></li>
+			<li> <a href="#"> 2</a></li>
+			<li> <a href="#"> 3</a></li>
+			<li> <a href="#"> 4</a></li>
+			<li> <a href="#"> 5</a></li>
+			<li> <a href="#"> 6</a></li>
+			<li> <a href="#"> 7</a></li>
+			<li> <a href="#"> 8</a></li>
+			<li class="disabled"> <a href="#"> Next</a></li>
+		</ul>
+	</div>
+
+	<div class="container-fluid" id="last">
+		<div class="container">
+			<h5 class="text-center">
+				<font color="white"> Copyright 2022 © MEDCARE, All Rights Reserved <br> (Designed by Vishal)</font>
+			</h5>
+		</div>
+	</div>
+
+</body>
+
+</html>
